@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/vendre.css">
+</head>
+<body>
+    <nav>
+        <ul>
+          <li><a href="index.html">Accueil</a></li>
+          <li><a href="index.html#acheter">Produit</a></li>
+          <li><a href="index.html#reduction">Réduction</a></li>
+          <li><a href="vendre.html">Vendre</a></li>
+        </ul>
+      </nav>
+
+    <h1>Ajouter un Produit</h1>
+    <form>
+        <label for="nom">Nom du Produit :</label>
+        <input type="text" name="nom" id="nom" required>
+        <br>
+        <label for="image">Image du Produit :</label>
+        <input type="file" name="image" id="image" accept="image/*" required>
+        <br>
+        <input type="button" value="Ajouter" >
+    </form>
+
+    <div id="message"></div>
+
+
+</body>
+</html>

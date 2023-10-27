@@ -1,0 +1,70 @@
+.banner img {
+  width: 100%;
+  height: 75vh;
+  object-fit: cover;
+}
+
+.banner h1 {
+  font-size: 70px;
+  font-family: 'Montserrat', sans-serif;
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: #ffffff;
+}
+
+.banner p {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  font-size: 30px;
+  color: white;
+}
+
+@media (max-width: 1280px) {
+  .banner h1 {
+      font-size: 40px;
+  }
+}
+
+@media (max-width: 500px) {
+  .banner h1 {
+      font-size: 20px;
+  }
+}
+
+@media (max-width: 350px) {
+  .end h1 {
+      font-size: 10px;
+  }
+}
+
+@media (max-width: 200px) {
+  .end h1 {
+      font-size: 5px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .banner p {
+      font-size: 20px;
+      margin-top: 0;
+  }
+}
+
+@media (max-width: 350px) {
+  .end p {
+      font-size: 10px;
+  }
+}
+
+@media (max-width: 200px) {
+  .end p {
+      font-size: 2px;
+  }
+}

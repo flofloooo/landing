@@ -1,0 +1,43 @@
+.button-container {
+  text-align: center;
+}
+
+.btn-left {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 70%;
+  left: 60%;
+  background-color: #000000;
+  padding: 15px 40px;
+  border-radius: 4px;
+  color: white;
+  font-weight: bold;
+  font-family: 'Roboto', sans-serif;
+  text-decoration: none;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.btn-right {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 70%;
+  left: 40%;
+  background-color: #000000;
+  padding: 15px 40px;
+  border-radius: 4px;
+  color: white;
+  font-weight: bold;
+  font-family: 'Roboto', sans-serif;
+  text-decoration: none;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.btn-left:hover {
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+}
+
+.btn-right:hover {
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+}
